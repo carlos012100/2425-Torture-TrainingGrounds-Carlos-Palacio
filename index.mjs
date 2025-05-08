@@ -4,8 +4,8 @@ import Weapon from "./Weapon.mjs";
 import characterBD from "./data/characterBD.mjs";
 
 const charactersArray = [];
-characterObjectArray();
-console.log(charactersArray)
+
+//Create array of character objects
 
 function characterObjectArray()
 {
@@ -22,5 +22,9 @@ function characterObjectArray()
         charactersArray.push(character)
     }
     return charactersArray;
-
 }
+characterObjectArray();
+
+//Create obj Day
+
+const day = new Day(3 , "tuesday")

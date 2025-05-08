@@ -8,4 +8,8 @@ export default class Character {
         this.skills = skills;
         this.weapon = weapon;
     }
+    trainForDay(weaponName, dayObj)
+    {
+
+    }
 }
